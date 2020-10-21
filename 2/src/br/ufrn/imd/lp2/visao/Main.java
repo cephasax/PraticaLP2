@@ -58,11 +58,11 @@ public class Main {
         // mechanic
         ArrayList<PersonagemBase> inimigos = new ArrayList<PersonagemBase>();
         PersonagemBase goblin = new Inimigo(10, "Goblin",
-                "Orc", 1, 4, "Massa",
+                "Orc", 1, 4, "machado",
                 1, 1.3);
 
         PersonagemBase kingOrk = new Inimigo(15, "Rei Orc",
-                "Ork", 1, 4, "Maça",
+                "Ork", 1, 4, "porrete",
                 1, 1.3);
 
         PersonagemBase elf = new Inimigo(20, "Sentinela",
