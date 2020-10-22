@@ -18,7 +18,7 @@ public class Melodico extends Instrumento{
 		
 		if (tipo.equals("cordas") && tipo.equals("metais") && tipo.equals("palhetas")) {
 			throw new TipoInvalidoMelodicoException(
-					"Um instrumento melódico deve ser do tipo cordas ou metais ou palhetas!");
+					"Um instrumento melodico deve ser do tipo cordas ou metais ou palhetas!");
 		}
 	}
 
